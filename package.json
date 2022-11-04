@@ -2,11 +2,11 @@
   "name": "name_check",
   "version": "1.0.0",
   "description": "check name socckerway team with else site squad list",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -build",
     "watch": "ts-node -w src/index.ts",
-    "start": "node dist/index.ts",
+    "start": "node dist/index.js",
     "fresh": "rm -rf node_modules && yarn install",
     "type-check": "tsc --build tsconfig.json",
     "precommit": "yarn run type-check",
