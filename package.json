@@ -1,6 +1,6 @@
 {
   "name": "name_check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check name socckerway team with else site squad list",
   "main": "dist/index.js",
   "scripts": {
